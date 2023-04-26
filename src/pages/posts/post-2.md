@@ -7,7 +7,7 @@ image:
   url: "https://ik.imagekit.io/milanz/milanzivanov_com/computer-keybord_sd_F-Qb62.webp?updatedAt=1641990561807"
   alt: "Thumbnails of websites from the Astro Showcase site."
 pubDate: 2022-07-08
-tags: ["astro", "blogging", "learning in public", "successes"]
+tags: ["astro", "learning in public", "successes"]
 ---
 
 After a successful first week learning Astro, I decided to try some more. I wrote and imported a small component from memory!
