@@ -41,6 +41,13 @@ header {
   background-color: #ff9776;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 .nav-links {
   width: 100%;
   top: 5rem;
@@ -69,14 +76,6 @@ a:focus {
   display: unset;
 }
 
-/* .nav-links__desktop {
-  display: none;
-}
-
-.nav-links__mobile {
-  display: flex;
-} */
-
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;
@@ -86,13 +85,6 @@ a:focus {
     background: none;
   }
 
-  /* .nav-links__desktop {
-    display: flex;
-  }
-  .nav-links__mobile {
-    display: none;
-  } */
-
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
@@ -101,4 +93,13 @@ a:focus {
   .hamburger {
     display: none;
   }
+}
+
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
